@@ -1,129 +1,124 @@
-﻿<table>
-  <tr>
-    <td width="58%" valign="middle">
-      <sub>SOFTWARE ENGINEER · BUILDER</sub>
-      <h1>Sorty</h1>
-      <p>
-        Building software across mobile, cloud, vision, and emerging technology. Focused on turning complex architectural challenges into quiet, high-utility products.
-      </p>
-      <p>
-        <a href="https://github.com/sorty11"><strong>GitHub ↗</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
-        <a href="https://linkedin.com/in/YOUR_LINKEDIN_HERE"><strong>LinkedIn ↗</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
-        <a href="mailto:sorty797@gmail.com"><strong>Email ↗</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
-        <a href="https://schedly-production.web.app"><strong>Schedly Live ↗</strong></a>
-      </p>
-      <p>
-        <sub>NMIMS B.TECH CE &nbsp;·&nbsp; MUMBAI, IN &nbsp;·&nbsp; EST. 2024</sub>
-      </p>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <img src="./assets/hero_editorial.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Sorty Monogram Sculpture"/>
-    </td>
-  </tr>
-</table>
+﻿<div align="center">
 
----
+  <!-- Self-Hosted Animated Cyberdeck Banner (Zero Images / 100% Vector SVG) -->
+  <img src="./assets/header-cyberdeck.svg" width="100%" alt="Sorty Cyberdeck Banner"/>
 
-### `01` / CURRENTLY BUILDING
+  <br/><br/>
 
-<table>
-  <tr>
-    <td width="58%" valign="middle">
-      <sub>FLAGSHIP SYSTEM // v1.1.0</sub>
-      <h2>Schedly</h2>
-      <p><strong>College timetable and real-time notification infrastructure.</strong></p>
-      <p>
-        Engineered to eliminate schedule friction across university departments. Implements an atomic <strong>Transactional Outbox Pattern</strong> between Cloud Firestore and an adaptive background Node.js worker, routing alerts to <strong>FCM Topics</strong> (divisions, lab batches, and class representatives). Guarantees zero-loss broadcast delivery without the complexity of individual device token tracking.
-      </p>
-      <p>
-        <sub><strong>STACK</strong> &nbsp;·&nbsp; Flutter · Dart · Cloud Firestore · Node.js Worker · Firebase FCM</sub>
-      </p>
-      <p>
-        <a href="https://schedly-production.web.app"><strong>[ View Live Web App ↗ ]</strong></a> &nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/sorty11/Schedly"><strong>[ Architecture &amp; Source ↗ ]</strong></a>
-      </p>
-    </td>
-    <td width="42%" align="center" valign="middle">
-      <a href="https://schedly-production.web.app">
-        <img src="./assets/schedly_editorial.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Schedly Minimal Product Composition"/>
-      </a>
-      <div align="right"><sub>PRODUCTION SYSTEM</sub></div>
-    </td>
-  </tr>
-</table>
+  <!-- Dynamic Typing Subtitle -->
+  <a href="https://github.com/sorty11">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2400&pause=1000&color=00F2FE&center=true&vCenter=true&width=650&lines=%3E+role%3A+AI-Native+Builder+%26+Rapid+Prototyper;%3E+workflow%3A+100%25+Vibe-Coded+%7C+Zero-Fluff+Execution;%3E+flagship%3A+Schedly+%5BFlutter+%2B+FCM+Outbox+Worker%5D;%3E+rule%3A+Prompt+hard.+Ship+fast.+Break+nothing." alt="Terminal Output" />
+  </a>
 
----
+  <br/>
 
-### `02` / SELECTED WORK
+  <!-- System Badges & Quick Command Links -->
+  <p align="center">
+    <img src="https://img.shields.io/badge/KERNEL-ONLINE-00ff66?style=for-the-badge&logo=gnubash&logoColor=black"/>
+    <img src="https://img.shields.io/badge/MODE-AI--AUGMENTED%20BUILDER-00F2FE?style=for-the-badge&logo=openai&logoColor=black"/>
+    <img src="https://img.shields.io/badge/HACKATHON-SMART%20INDIA%20HACKATHON-8A2BE2?style=for-the-badge&logo=target&logoColor=white"/>
+    <a href="mailto:sorty797@gmail.com"><img src="https://img.shields.io/badge/COMMS-SECURE%20MAIL-FF0055?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  </p>
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <img src="./assets/fateheen_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Fateheen Architecture Geometry"/>
-      <br/><br/>
-      <sub>02 // SYSTEMS</sub>
-      <h4><a href="https://github.com/sorty11/Fateheen">Fateheen</a></h4>
-      <p>Collaborative engineering solution architected for the <strong>Smart India Hackathon (SIH)</strong> under high-pressure competitive constraints.</p>
-      <p><sub><code>Full-Stack</code> · <code>Cloud Architecture</code></sub></p>
-      <p><a href="https://github.com/sorty11/Fateheen"><strong>Repository ↗</strong></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="./assets/aircontrol_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="AirControl Optical Radar"/>
-      <br/><br/>
-      <sub>03 // COMPUTER VISION</sub>
-      <h4><a href="https://github.com/sorty11/aircontrol">AirControl</a></h4>
-      <p>Touchless interaction system tracking hand landmarks in real time to drive air-mouse navigation, optical gestures, and audio modulation.</p>
-      <p><sub><code>Python</code> · <code>OpenCV</code> · <code>MediaPipe</code></sub></p>
-      <p><a href="https://github.com/sorty11/aircontrol"><strong>Repository ↗</strong></a></p>
-    </td>
-    <td width="33%" valign="top">
-      <img src="./assets/auction_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Cricket Auction Telemetry"/>
-      <br/><br/>
-      <sub>04 // SIMULATION ENGINE</sub>
-      <h4><a href="https://github.com/sorty11/cricket-player-auction">Cricket Auction</a></h4>
-      <p>Real-time sports auction bidding simulator featuring dynamic purse deductions, squad quota constraints, and automated roster valuation analytics.</p>
-      <p><sub><code>JavaScript</code> · <code>HTML5</code> · <code>CSS3</code></sub></p>
-      <p><a href="https://github.com/sorty11/cricket-player-auction"><strong>Repository ↗</strong></a></p>
-    </td>
-  </tr>
-</table>
+  <p align="center">
+    <a href="https://github.com/sorty11"><strong>[ GitHub Profile ]</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://linkedin.com/in/YOUR_LINKEDIN_HERE"><strong>[ LinkedIn ]</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="mailto:sorty797@gmail.com"><strong>[ Contact Email ]</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
+    <a href="https://schedly-production.web.app"><strong>[ Schedly Live Web App ↗ ]</strong></a>
+  </p>
 
----
-
-### `03` / TECHNICAL STACK
-
-```ini
-  CORE       ::  Dart · Flutter · JavaScript · Python · C / C++
-  PRODUCT    ::  Node.js · Express · Cloud Firestore · Firebase Auth
-  VISION     ::  OpenCV · MediaPipe
-  TOOLING    ::  Git · GitHub Actions · VS Code · Android Studio · Linux
-  EXPLORING  ::  Distributed Messaging · 3D Web Graphics · Computer Vision
-```
-
----
-
-### `04` / GITHUB ACTIVITY
-
-<!-- The Single 3D Isometric Contribution Data Visualization -->
-<div align="center">
-  <img src="./assets/contribution_3d.svg" width="100%" alt="3D Isometric Contribution Landscape"/>
 </div>
 
 ---
 
-### `05` / FOCUS & INTERESTS
+### 💻 `neofetch --sorty`
 
-<p>
-  <code>Product Engineering</code> &nbsp;·&nbsp;
-  <code>Mobile Architecture</code> &nbsp;·&nbsp;
-  <code>Computer Vision</code> &nbsp;·&nbsp;
-  <code>Hackathons (SIH)</code> &nbsp;·&nbsp;
-  <code>3D Graphics</code> &nbsp;·&nbsp;
-  <code>Competitive Gaming</code>
-</p>
+```ini
+   ███████╗ ██████╗ ██████╗ ████████╗██╗   ██╗     OS       : AI-Augmented Linux / Windows Kernel
+   ██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝╚██╗ ██╔╝     HOST     : Neural Cyberdeck v2.6
+   ███████╗██║   ██║██████╔╝   ██║    ╚████╔╝      ROLE     : AI-Native Systems Builder & Orchestrator
+   ╚════██║██║   ██║██╔══██╗   ██║     ╚██╔╝       CORE     : Flutter • Dart • Node.js • Firebase
+   ███████║╚██████╔╝██║  ██║   ██║      ██║        METHOD   : 100% Vibe-Coded / High-Velocity Prototyping
+   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝      ╚═╝        PHILOSOPHY: "Talk is cheap. Show me the prompt & the deployed app."
+```
+
+---
+
+### ⚙️ Production Deployments & Systems Architecture
+
+```yaml
+production_nodes:
+  - module: "01 // SCHEDLY"
+    type: "Campus Timetable & Real-Time Alert Infrastructure"
+    engine: "Flutter (Dart) + Cloud Firestore + Node.js Worker + FCM Topics"
+    architecture: "Atomic Transactional Outbox (Guarantees zero-loss alert delivery across student batches)"
+    live_app: "https://schedly-production.web.app"
+    source: "https://github.com/sorty11/Schedly"
+    status: "Production v1.1.0"
+
+  - module: "02 // FATEHEEN"
+    type: "Smart India Hackathon (SIH) Mission-Critical Engineering Platform"
+    engine: "Full-Stack + Cloud Architecture"
+    source: "https://github.com/sorty11/Fateheen"
+    status: "Hackathon Team Project"
+
+  - module: "03 // AIRCONTROL"
+    type: "Touchless Computer Vision & Gesture Controller"
+    engine: "Python + OpenCV + MediaPipe"
+    source: "https://github.com/sorty11/aircontrol"
+    status: "Active R&D Prototype"
+
+  - module: "04 // CRICKET AUCTION ENGINE"
+    type: "Real-time Sports Bidding & Squad Valuation Simulator"
+    engine: "JavaScript + DOM State Machine + HTML5/CSS3"
+    source: "https://github.com/sorty11/cricket-player-auction"
+    status: "Complete"
+```
+
+---
+
+### 🛠️ Armory & Toolchain
+
+<div align="center">
+
+| Subsystem | Technologies & Frameworks |
+| :--- | :--- |
+| **Mobile & Frontend** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=flutter,dart,js,ts,react,html,css" /></a> |
+| **Backend & Cloud** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,firebase,mongodb,postgres" /></a> |
+| **DevOps & Engines** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,postman,figma" /></a> |
+
+</div>
+
+---
+
+### 📡 Telemetry Matrix & Activity Diagnostics
+
+<div align="center">
+
+  <!-- Self-Hosted Zero-Downtime Telemetry Card -->
+  <img src="./assets/telemetry-card.svg" width="100%" alt="Sorty Telemetry Matrix"/>
+
+  <br/><br/>
+
+  <!-- Real-time GitHub Streak Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sorty11&theme=radical&hide_border=true&background=0d1117&ring=00f2fe&fire=ff0055&currStreakLabel=00f2fe" height="160" alt="Streak"/>
+
+</div>
+
+---
+
+### 🐍 Neural Grid Activity (Autonomous Snake Worker)
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sorty11/sorty11/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sorty11/sorty11/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/sorty11/sorty11/output/github-contribution-grid-snake-dark.svg">
+  </picture>
+</div>
 
 ---
 
 <div align="center">
-  <sub>Designed with restraint, precision &amp; clarity · Sorty © 2026</sub>
+  <code>⚡ SYSTEM STATUS: 0 ERRORS // 100% OPERATIONAL // SORTY.DEV ⚡</code>
 </div>
