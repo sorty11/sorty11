@@ -1,0 +1,88 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="obsidianBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A10"/>
+      <stop offset="50%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#05080E"/>
+    </linearGradient>
+
+    <linearGradient id="cyanViolet" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#00F2FE"/>
+    </linearGradient>
+
+    <style>
+      .hud-mono { font-family: 'Fira Code', 'Courier New', monospace; }
+      @keyframes pulseSignal { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+      .signal-dot { animation: pulseSignal 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Chassis Frame with Neon Cyan/Violet Edges -->
+  <rect x="2" y="2" width="846" height="196" rx="10" fill="url(#obsidianBg)" stroke="#1E293B" stroke-width="1.5"/>
+
+  <!-- Top HUD Bar -->
+  <path d="M 2 34 L 848 34" stroke="#1E293B" stroke-width="1"/>
+  <text x="24" y="23" fill="#00F2FE" class="hud-mono" font-size="11" font-weight="700" letter-spacing="1.5">TELEMETRY // SORTY11.DIAGNOSTICS_MATRIX</text>
+  <circle cx="810" cy="18" r="4" fill="#00F2FE" class="signal-dot"/>
+  <text x="735" y="22" fill="#00F2FE" class="hud-mono" font-size="10" font-weight="700">ONLINE</text>
+
+  <!-- Metric 1: Total Contributions -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="0" width="165" height="122" rx="8" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" fill="#64748B" class="hud-mono" font-size="10" font-weight="700">CONTRIBUTIONS</text>
+    <text x="16" y="66" fill="#00F2FE" class="hud-mono" font-size="32" font-weight="800">115+</text>
+    <text x="16" y="90" fill="#10B981" class="hud-mono" font-size="10" font-weight="600">↑ Active Pushes</text>
+    <rect x="16" y="104" width="133" height="4" rx="2" fill="#1E293B"/>
+    <rect x="16" y="104" width="110" height="4" rx="2" fill="#00F2FE"/>
+  </g>
+
+  <!-- Metric 2: Public Repositories -->
+  <g transform="translate(210, 50)">
+    <rect x="0" y="0" width="165" height="122" rx="8" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" fill="#64748B" class="hud-mono" font-size="10" font-weight="700">PUBLIC NODES</text>
+    <text x="16" y="66" fill="#8A2BE2" class="hud-mono" font-size="32" font-weight="800">08</text>
+    <text x="16" y="90" fill="#94A3B8" class="hud-mono" font-size="10" font-weight="600">Active Repos</text>
+    <rect x="16" y="104" width="133" height="4" rx="2" fill="#1E293B"/>
+    <rect x="16" y="104" width="85" height="4" rx="2" fill="#8A2BE2"/>
+  </g>
+
+  <!-- Metric 3: Active Focus -->
+  <g transform="translate(390, 50)">
+    <rect x="0" y="0" width="165" height="122" rx="8" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="24" fill="#64748B" class="hud-mono" font-size="10" font-weight="700">FOCUS DOMAIN</text>
+    <text x="16" y="66" fill="#10B981" class="hud-mono" font-size="30" font-weight="800">MOBILE</text>
+    <text x="16" y="90" fill="#10B981" class="hud-mono" font-size="10" font-weight="600">Flutter + Cloud</text>
+    <rect x="16" y="104" width="133" height="4" rx="2" fill="#1E293B"/>
+    <rect x="16" y="104" width="125" height="4" rx="2" fill="url(#emeraldGrad)"/>
+  </g>
+
+  <!-- Languages Distribution (Right Panel) -->
+  <g transform="translate(570, 50)">
+    <rect x="0" y="0" width="250" height="122" rx="8" fill="#0B0F19" stroke="#1E293B" stroke-width="1"/>
+    <text x="16" y="22" fill="#64748B" class="hud-mono" font-size="10" font-weight="700">CODE FREQUENCY RATIO</text>
+
+    <!-- Dart / Flutter -->
+    <text x="16" y="46" fill="#E2E8F0" class="hud-mono" font-size="11" font-weight="600">Dart / Flutter</text>
+    <text x="195" y="46" fill="#00F2FE" class="hud-mono" font-size="11" font-weight="700">65%</text>
+    <rect x="16" y="52" width="218" height="5" rx="2" fill="#1E293B"/>
+    <rect x="16" y="52" width="141" height="5" rx="2" fill="url(#cyanViolet)"/>
+
+    <!-- JavaScript / DOM -->
+    <text x="16" y="74" fill="#E2E8F0" class="hud-mono" font-size="11" font-weight="600">JavaScript / DOM</text>
+    <text x="195" y="74" fill="#8A2BE2" class="hud-mono" font-size="11" font-weight="700">25%</text>
+    <rect x="16" y="80" width="218" height="5" rx="2" fill="#1E293B"/>
+    <rect x="16" y="80" width="55" height="5" rx="2" fill="#8A2BE2"/>
+
+    <!-- Python / Computer Vision -->
+    <text x="16" y="102" fill="#E2E8F0" class="hud-mono" font-size="11" font-weight="600">Python / Vision</text>
+    <text x="195" y="102" fill="#10B981" class="hud-mono" font-size="11" font-weight="700">10%</text>
+    <rect x="16" y="108" width="218" height="5" rx="2" fill="#1E293B"/>
+    <rect x="16" y="108" width="22" height="5" rx="2" fill="#10B981"/>
+  </g>
+</svg>
