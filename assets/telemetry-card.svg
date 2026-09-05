@@ -1,0 +1,92 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 210" width="100%" height="210">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E17"/>
+      <stop offset="100%" stop-color="#06090F"/>
+    </linearGradient>
+
+    <linearGradient id="dartGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"/>
+      <stop offset="100%" stop-color="#0077FF"/>
+    </linearGradient>
+
+    <linearGradient id="jsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F7DF1E"/>
+      <stop offset="100%" stop-color="#FF9900"/>
+    </linearGradient>
+
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#00FF66"/>
+    </linearGradient>
+
+    <style>
+      .mono { font-family: 'Fira Code', 'Courier New', monospace; }
+      @keyframes pulse { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+      .live-dot { animation: pulse 2s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Card Frame -->
+  <rect x="2" y="2" width="846" height="206" rx="12" fill="url(#cardBg)" stroke="#1F2D42" stroke-width="1.5"/>
+
+  <!-- Header line -->
+  <path d="M 2 34 L 848 34" stroke="#1F2D42" stroke-width="1"/>
+  <text x="24" y="22" fill="#00F2FE" class="mono" font-size="12" font-weight="700">📡 TELEMETRY_MATRIX // REAL-TIME SYSTEM DIAGNOSTICS</text>
+  <circle cx="810" cy="18" r="4" fill="#00FF66" class="live-dot"/>
+  <text x="735" y="22" fill="#00FF66" class="mono" font-size="11" font-weight="600">LIVE HUD</text>
+
+  <!-- Metric 1: Total Contributions -->
+  <g transform="translate(30, 55)">
+    <rect x="0" y="0" width="165" height="125" rx="8" fill="#0D1626" stroke="#1F2D42" stroke-width="1"/>
+    <text x="16" y="26" fill="#6B7D9E" class="mono" font-size="10" font-weight="700">CONTRIBUTIONS</text>
+    <text x="16" y="68" fill="#00F2FE" class="mono" font-size="34" font-weight="800">112+</text>
+    <text x="16" y="94" fill="#00FF66" class="mono" font-size="11" font-weight="600">↑ Active Velocity</text>
+    <rect x="16" y="106" width="133" height="4" rx="2" fill="#1A283D"/>
+    <rect x="16" y="106" width="105" height="4" rx="2" fill="#00F2FE"/>
+  </g>
+
+  <!-- Metric 2: Public Modules & Repos -->
+  <g transform="translate(210, 55)">
+    <rect x="0" y="0" width="165" height="125" rx="8" fill="#0D1626" stroke="#1F2D42" stroke-width="1"/>
+    <text x="16" y="26" fill="#6B7D9E" class="mono" font-size="10" font-weight="700">ACTIVE REPOSITORIES</text>
+    <text x="16" y="68" fill="#FF0055" class="mono" font-size="34" font-weight="800">08</text>
+    <text x="16" y="94" fill="#E2E8F0" class="mono" font-size="11" font-weight="600">Public Nodes</text>
+    <rect x="16" y="106" width="133" height="4" rx="2" fill="#1A283D"/>
+    <rect x="16" y="106" width="90" height="4" rx="2" fill="#FF0055"/>
+  </g>
+
+  <!-- Metric 3: Dev Streak -->
+  <g transform="translate(390, 55)">
+    <rect x="0" y="0" width="165" height="125" rx="8" fill="#0D1626" stroke="#1F2D42" stroke-width="1"/>
+    <text x="16" y="26" fill="#6B7D9E" class="mono" font-size="10" font-weight="700">STREAK ENGAGEMENT</text>
+    <text x="16" y="68" fill="#FFB703" class="mono" font-size="34" font-weight="800">🔥 ON</text>
+    <text x="16" y="94" fill="#FFB703" class="mono" font-size="11" font-weight="600">Consistent Pushes</text>
+    <rect x="16" y="106" width="133" height="4" rx="2" fill="#1A283D"/>
+    <rect x="16" y="106" width="115" height="4" rx="2" fill="#FFB703"/>
+  </g>
+
+  <!-- Languages Breakdown Section (Right Side) -->
+  <g transform="translate(570, 55)">
+    <rect x="0" y="0" width="250" height="125" rx="8" fill="#0D1626" stroke="#1F2D42" stroke-width="1"/>
+    <text x="16" y="24" fill="#6B7D9E" class="mono" font-size="10" font-weight="700">LANGUAGE DISTRIBUTION</text>
+
+    <!-- Dart / Flutter -->
+    <text x="16" y="50" fill="#E2E8F0" class="mono" font-size="11" font-weight="600">Dart / Flutter</text>
+    <text x="195" y="50" fill="#00F2FE" class="mono" font-size="11" font-weight="700">65%</text>
+    <rect x="16" y="56" width="218" height="6" rx="3" fill="#1A283D"/>
+    <rect x="16" y="56" width="141" height="6" rx="3" fill="url(#dartGrad)"/>
+
+    <!-- JavaScript / Web -->
+    <text x="16" y="80" fill="#E2E8F0" class="mono" font-size="11" font-weight="600">JavaScript / Web</text>
+    <text x="195" y="80" fill="#F7DF1E" class="mono" font-size="11" font-weight="700">25%</text>
+    <rect x="16" y="86" width="218" height="6" rx="3" fill="#1A283D"/>
+    <rect x="16" y="86" width="55" height="6" rx="3" fill="url(#jsGrad)"/>
+
+    <!-- Python / AI / Shell -->
+    <text x="16" y="110" fill="#E2E8F0" class="mono" font-size="11" font-weight="600">Python / Systems</text>
+    <text x="195" y="110" fill="#00FF66" class="mono" font-size="11" font-weight="700">10%</text>
+    <rect x="16" y="116" width="218" height="6" rx="3" fill="#1A283D"/>
+    <rect x="16" y="116" width="22" height="6" rx="3" fill="url(#pyGrad)"/>
+  </g>
+</svg>
