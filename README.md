@@ -1,12 +1,10 @@
 ﻿<table>
   <tr>
-    <td width="56%" valign="middle">
-      <img src="./assets/brand_mark.svg" width="44" alt="Sorty11 Mark"/>
-      <br/><br/>
-      <sub>ENGINEER // PRODUCT BUILDER</sub>
-      <h1>SORTY11</h1>
+    <td width="58%" valign="middle">
+      <sub>SOFTWARE ENGINEER · BUILDER</sub>
+      <h1>Sorty</h1>
       <p>
-        Building high-reliability software across mobile, cloud, computer vision, and emerging technologies. Focused on turning complex systems into quiet, high-utility products.
+        Building software across mobile, cloud, vision, and emerging technology. Focused on turning complex architectural challenges into quiet, high-utility products.
       </p>
       <p>
         <a href="https://github.com/sorty11"><strong>GitHub ↗</strong></a> &nbsp;&nbsp;·&nbsp;&nbsp;
@@ -15,11 +13,11 @@
         <a href="https://schedly-production.web.app"><strong>Schedly Live ↗</strong></a>
       </p>
       <p>
-        <sub>MUMBAI, IN &nbsp;·&nbsp; NMIMS B.TECH CE &nbsp;·&nbsp; EST. 2024</sub>
+        <sub>NMIMS B.TECH CE &nbsp;·&nbsp; MUMBAI, IN &nbsp;·&nbsp; EST. 2024</sub>
       </p>
     </td>
-    <td width="44%" align="center" valign="middle">
-      <img src="./assets/hero_monolith.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Sorty11 Engineered Titanium Monolith"/>
+    <td width="42%" align="center" valign="middle">
+      <img src="./assets/hero_editorial.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Sorty Monogram Sculpture"/>
     </td>
   </tr>
 </table>
@@ -30,25 +28,26 @@
 
 <table>
   <tr>
-    <td width="56%" valign="middle">
-      <div align="right"><sub>PRODUCTION DEPLOYMENT // v1.1.0</sub></div>
-      <h3>📱 <a href="https://schedly-production.web.app">Schedly — College Timetable &amp; Notification Infrastructure</a></h3>
+    <td width="58%" valign="middle">
+      <sub>FLAGSHIP SYSTEM // v1.1.0</sub>
+      <h2>Schedly</h2>
+      <p><strong>College timetable and real-time notification infrastructure.</strong></p>
       <p>
-        A campus-wide platform engineered to eliminate schedule friction. Implements an atomic <strong>Transactional Outbox Pattern</strong> between Cloud Firestore and an adaptive background Node.js daemon, dispatching real-time updates directly to <strong>FCM Topics</strong> (divisions, lab batches, and student representatives). Guarantees zero-loss alert delivery across entire student bodies without device-token tracking overhead.
+        Engineered to eliminate schedule friction across university departments. Implements an atomic <strong>Transactional Outbox Pattern</strong> between Cloud Firestore and an adaptive background Node.js worker, routing alerts to <strong>FCM Topics</strong> (divisions, lab batches, and class representatives). Guarantees zero-loss broadcast delivery without the complexity of individual device token tracking.
       </p>
       <p>
         <sub><strong>STACK</strong> &nbsp;·&nbsp; Flutter · Dart · Cloud Firestore · Node.js Worker · Firebase FCM</sub>
       </p>
       <p>
         <a href="https://schedly-production.web.app"><strong>[ View Live Web App ↗ ]</strong></a> &nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/sorty11/Schedly"><strong>[ Architecture &amp; Repository ↗ ]</strong></a>
+        <a href="https://github.com/sorty11/Schedly"><strong>[ Architecture &amp; Source ↗ ]</strong></a>
       </p>
     </td>
-    <td width="44%" align="center" valign="middle">
+    <td width="42%" align="center" valign="middle">
       <a href="https://schedly-production.web.app">
-        <img src="./assets/schedly_flagship.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Schedly Smartphone on Basalt"/>
+        <img src="./assets/schedly_editorial.jpg" width="100%" style="border-radius: 8px; border: 1px solid #262C36;" alt="Schedly Minimal Product Composition"/>
       </a>
-      <div align="right"><sub>LIVE APPLICATION</sub></div>
+      <div align="right"><sub>PRODUCTION SYSTEM</sub></div>
     </td>
   </tr>
 </table>
@@ -60,35 +59,29 @@
 <table>
   <tr>
     <td width="33%" valign="top">
-      <a href="https://github.com/sorty11/Fateheen">
-        <img src="./assets/fateheen_topology.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Fateheen Topology"/>
-      </a>
+      <img src="./assets/fateheen_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Fateheen Architecture Geometry"/>
       <br/><br/>
       <sub>02 // SYSTEMS</sub>
       <h4><a href="https://github.com/sorty11/Fateheen">Fateheen</a></h4>
-      <p>Mission-critical systems engineering platform architected for the <strong>Smart India Hackathon (SIH)</strong> under intensive competitive constraints.</p>
+      <p>Collaborative engineering solution architected for the <strong>Smart India Hackathon (SIH)</strong> under high-pressure competitive constraints.</p>
       <p><sub><code>Full-Stack</code> · <code>Cloud Architecture</code></sub></p>
       <p><a href="https://github.com/sorty11/Fateheen"><strong>Repository ↗</strong></a></p>
     </td>
     <td width="33%" valign="top">
-      <a href="https://github.com/sorty11/aircontrol">
-        <img src="./assets/aircontrol_radar.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="AirControl Optical Radar"/>
-      </a>
+      <img src="./assets/aircontrol_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="AirControl Optical Radar"/>
       <br/><br/>
       <sub>03 // COMPUTER VISION</sub>
       <h4><a href="https://github.com/sorty11/aircontrol">AirControl</a></h4>
-      <p>Touchless interaction system leveraging real-time hand-landmark triangulation to execute air-mouse navigation, optical pinching, and audio modulation.</p>
+      <p>Touchless interaction system tracking hand landmarks in real time to drive air-mouse navigation, optical gestures, and audio modulation.</p>
       <p><sub><code>Python</code> · <code>OpenCV</code> · <code>MediaPipe</code></sub></p>
       <p><a href="https://github.com/sorty11/aircontrol"><strong>Repository ↗</strong></a></p>
     </td>
     <td width="33%" valign="top">
-      <a href="https://github.com/sorty11/cricket-player-auction">
-        <img src="./assets/auction_telemetry.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Cricket Auction Telemetry"/>
-      </a>
+      <img src="./assets/auction_editorial.jpg" width="100%" style="border-radius: 6px; border: 1px solid #262C36;" alt="Cricket Auction Telemetry"/>
       <br/><br/>
       <sub>04 // SIMULATION ENGINE</sub>
       <h4><a href="https://github.com/sorty11/cricket-player-auction">Cricket Auction</a></h4>
-      <p>Real-time sports auction bidding simulator with dynamic purse deduction, team squad quota constraints, and automated roster valuation analytics.</p>
+      <p>Real-time sports auction bidding simulator featuring dynamic purse deductions, squad quota constraints, and automated roster valuation analytics.</p>
       <p><sub><code>JavaScript</code> · <code>HTML5</code> · <code>CSS3</code></sub></p>
       <p><a href="https://github.com/sorty11/cricket-player-auction"><strong>Repository ↗</strong></a></p>
     </td>
@@ -100,45 +93,37 @@
 ### `03` / TECHNICAL STACK
 
 ```ini
-  CORE         ::  Dart · Flutter · JavaScript · Python · C / C++
-  PRODUCT      ::  Node.js · Express · Cloud Firestore · Firebase Auth
-  VISION & AI  ::  OpenCV · MediaPipe · AI-Augmented Pipelines
-  TOOLCHAIN    ::  Git · GitHub Actions · VS Code · Android Studio · Linux
-  EXPLORING    ::  Distributed Messaging · 3D Web Graphics · Systems Engineering
+  CORE       ::  Dart · Flutter · JavaScript · Python · C / C++
+  PRODUCT    ::  Node.js · Express · Cloud Firestore · Firebase Auth
+  VISION     ::  OpenCV · MediaPipe
+  TOOLING    ::  Git · GitHub Actions · VS Code · Android Studio · Linux
+  EXPLORING  ::  Distributed Messaging · 3D Web Graphics · Computer Vision
 ```
 
 ---
 
-### `04` / CODEBASE RATIO
+### `04` / GITHUB ACTIVITY
 
+<!-- The Single 3D Isometric Contribution Data Visualization -->
 <div align="center">
-  <img src="./assets/languages.svg" width="100%" alt="Codebase Distribution"/>
+  <img src="./assets/contribution_3d.svg" width="100%" alt="3D Isometric Contribution Landscape"/>
 </div>
 
 ---
 
-### `05` / GITHUB ACTIVITY
-
-<!-- The Single 3D Isometric Contribution Monolith -->
-<div align="center">
-  <img src="./assets/contribution_3d.svg" width="100%" alt="3D Isometric Contribution Monolith"/>
-</div>
-
----
-
-### `06` / IDENTITY & FOCUS
+### `05` / FOCUS & INTERESTS
 
 <p>
   <code>Product Engineering</code> &nbsp;·&nbsp;
   <code>Mobile Architecture</code> &nbsp;·&nbsp;
   <code>Computer Vision</code> &nbsp;·&nbsp;
-  <code>Smart India Hackathon</code> &nbsp;·&nbsp;
-  <code>Competitive Gaming (Valorant)</code> &nbsp;·&nbsp;
-  <code>3D Graphics &amp; Emulation</code>
+  <code>Hackathons (SIH)</code> &nbsp;·&nbsp;
+  <code>3D Graphics</code> &nbsp;·&nbsp;
+  <code>Competitive Gaming</code>
 </p>
 
 ---
 
 <div align="center">
-  <sub>Designed with restraint, precision &amp; depth · Sorty © 2026</sub>
+  <sub>Designed with restraint, precision &amp; clarity · Sorty © 2026</sub>
 </div>
