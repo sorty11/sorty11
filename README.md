@@ -1,96 +1,89 @@
 ﻿<div align="center">
 
-  <!-- Self-Hosted Animated Cyberdeck Header (Bulletproof / Zero Downtime) -->
-  <img src="./assets/header-cyberdeck.svg" width="100%" alt="Sorty Cyberdeck Banner"/>
+  <!-- Handcrafted Vintage Rusty/Amber CRT Banner -->
+  <img src="./assets/header-retro.svg" width="100%" alt="Sorty Vintage Workbench"/>
 
   <br/><br/>
 
-  <!-- Dynamic Typing Subtitle -->
+  <!-- Subtle Amber Monospace Subtitle -->
   <a href="https://github.com/sorty11">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2400&pause=1000&color=00F2FE&center=true&vCenter=true&width=620&lines=%3E+role%3A+AI-Native+Builder+%26+Rapid+Prototyper;%3E+workflow%3A+100%25+Vibe-Coded+%7C+Zero-Fluff+Execution;%3E+flagship%3A+Schedly+%5BFlutter+%2B+FCM+Outbox+Worker%5D;%3E+rule%3A+Prompt+hard.+Ship+fast.+Break+nothing." alt="Terminal Output" />
+    <img src="https://readme-typing-svg.demolab.com?font=Courier+Prime&weight=700&size=18&duration=2600&pause=1200&color=D97706&center=true&vCenter=true&width=620&lines=maker+%E2%80%A2+mobile+app+tinkerer+%E2%80%A2+curious+builder;shipping+Schedly+for+campus+updates;turning+raw+ideas+into+working+tools;craft+over+hype+%E2%80%A2+learning+by+building" alt="Typing Output" />
   </a>
 
   <br/>
 
-  <!-- Cyber System Badges -->
+  <!-- Warm Vintage Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/KERNEL-ONLINE-00ff66?style=for-the-badge&logo=gnubash&logoColor=black"/>
-    <img src="https://img.shields.io/badge/MODE-AI--AUGMENTED%20BUILDER-00F2FE?style=for-the-badge&logo=openai&logoColor=black"/>
-    <img src="https://img.shields.io/badge/MISSION-SHIPPING%20PRODUCTS-FFD700?style=for-the-badge&logo=target&logoColor=black"/>
-    <a href="mailto:sorty797@gmail.com"><img src="https://img.shields.io/badge/COMMS-ENCRYPTED%20MAIL-FF0055?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+    <img src="https://img.shields.io/badge/status-tinkering%20%26%20building-9A3412?style=flat-square"/>
+    <img src="https://img.shields.io/badge/craft-mobile%20%26%20web-D97706?style=flat-square"/>
+    <img src="https://img.shields.io/badge/focus-Schedly-2A9D8F?style=flat-square"/>
+    <a href="mailto:sorty797@gmail.com"><img src="https://img.shields.io/badge/contact-email%20me-C2410C?style=flat-square&logo=gmail&logoColor=white"/></a>
   </p>
 
 </div>
 
 ---
 
-### 💻 `neofetch --sorty`
+### 🪵 The Workbench
 
-```ini
-   ███████╗ ██████╗ ██████╗ ████████╗██╗   ██╗     OS       : AI-Augmented Linux / Windows Kernel
-   ██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝╚██╗ ██╔╝     HOST     : Neural Cyberdeck v2.6
-   ███████╗██║   ██║██████╔╝   ██║    ╚████╔╝      ROLE     : AI-Native Systems Builder & Orchestrator
-   ╚════██║██║   ██║██╔══██╗   ██║     ╚██╔╝       CORE     : Flutter • Dart • Node.js • Firebase
-   ███████║╚██████╔╝██║  ██║   ██║      ██║        METHOD   : 100% Vibe-Coded / High-Velocity Prototyping
-   ╚══════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝      ╚═╝        PHILOSOPHY: "Talk is cheap. Show me the prompt & the deployed app."
 ```
+╭────────────────────────────────────────────────────────────────────────╮
+│  "Most of my time is spent tinkering with code, breaking things,      │
+│   and putting them back together until they actually work."            │
+╰────────────────────────────────────────────────────────────────────────╯
+```
+
+Hey, I'm **Sorty** 👋
+
+I like building practical, no-nonsense software for mobile, web, and hardware. Instead of getting stuck in theoretical debates, I prefer picking up tools, prototyping quickly, and launching things that solve actual everyday friction.
+
+* 📱 **Currently focused on**: Scaling [Schedly](https://github.com/sorty11/Schedly) — a campus timetable and instant alert platform.
+* 🛠️ **Favorite workflow**: Flutter on the front, Firebase / Node on the back, and plenty of coffee in between.
+* 🔍 **Exploring**: Offline-first mobile caching, real-time message brokering, and computer vision gestures.
 
 ---
 
-### ⚙️ Production Modules & Architecture
+### 📦 Handcrafted Projects
 
-```yaml
-nodes:
-  - module: "01 // SCHEDLY"
-    type: "Campus Timetable & Real-Time Alert Distribution"
-    engine: "Flutter (Dart) + Firebase Firestore + Node.js Worker"
-    architecture: "Atomic Transactional Outbox (Guarantees 0-loss push broadcasts via FCM Topics)"
-    endpoint: "https://github.com/sorty11/Schedly"
-
-  - module: "02 // CRICKET AUCTION ENGINE"
-    type: "Real-time Bidding & Budgeting Simulator"
-    engine: "JavaScript + DOM State Machine"
-    endpoint: "https://github.com/sorty11/cricket-player-auction"
-
-  - module: "03 // AIRCONTROL"
-    type: "Computer Vision Gesture Interaction"
-    engine: "Python + OpenCV + MediaPipe"
-    status: "R&D Prototype"
-```
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[📱 Schedly](https://github.com/sorty11/Schedly)** | College timetable & announcements engine. Built with an atomic **Transactional Outbox** pattern to make sure campus-wide push notifications never get lost. | `Flutter` `Dart` `Firebase` `Node.js` |
+| **[🏏 Cricket Player Auction](https://github.com/sorty11/cricket-player-auction)** | Interactive real-time bidding simulator with live budget calculations, team rosters, and auction dynamics. | `JavaScript` `HTML5` `CSS3` |
+| **[🖐️ AirControl](https://github.com/sorty11/aircontrol)** | Computer vision prototype tracking hand landmarks to control computer cursor and audio in the air. | `Python` `OpenCV` `MediaPipe` |
 
 ---
 
-### 🛠️ Armory & Toolchain
+### 🧰 Tools & Workshop Kit
 
 <div align="center">
 
-| Subsystem | Stack |
+| Area | Tools & Technologies |
 | :--- | :--- |
 | **Mobile & Frontend** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=flutter,dart,js,ts,react,html,css" /></a> |
-| **Backend & Cloud** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,firebase,mongodb,postgres" /></a> |
-| **Tools & AI Engine** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,postman,figma" /></a> |
+| **Data & Services** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nodejs,express,firebase,mongodb,postgres" /></a> |
+| **Workbench & OS** | <a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,postman,figma" /></a> |
 
 </div>
 
 ---
 
-### 📡 System Telemetry & Metrics (Bulletproof Vector HUD)
+### 📜 Workbench Logs & Telemetry
 
 <div align="center">
 
-  <!-- Self-Hosted Zero-Downtime Telemetry Card -->
-  <img src="./assets/telemetry-card.svg" width="100%" alt="Sorty Telemetry Matrix"/>
+  <!-- Self-Hosted Vintage Rust Telemetry HUD -->
+  <img src="./assets/telemetry-retro.svg" width="100%" alt="Sorty Workbench Telemetry"/>
 
   <br/><br/>
 
-  <!-- GitHub Streak Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sorty11&theme=radical&hide_border=true&background=0d1117&ring=00f2fe&fire=ff0055&currStreakLabel=00f2fe" height="160" alt="Streak"/>
+  <!-- Gruvbox / Warm Amber Streak Counter -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sorty11&theme=gruvbox&hide_border=true&background=181513&ring=D97706&fire=C2410C&currStreakLabel=F59E0B" height="155" alt="Streak"/>
 
 </div>
 
 ---
 
-### 🐍 Neural Grid Activity (Autonomous Snake Worker)
+### 🐍 The Contribution Grid
 
 <div align="center">
   <picture>
@@ -103,5 +96,5 @@ nodes:
 ---
 
 <div align="center">
-  <code>⚡ SYSTEM STATUS: 0 ERRORS // 100% OPERATIONAL // SORTY.DEV ⚡</code>
+  <sub>🪵 Handcrafted by Sorty • Built with patience &amp; curiosity • Est. 2024</sub>
 </div>

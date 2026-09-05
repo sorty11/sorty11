@@ -1,0 +1,82 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="retroCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191512"/>
+      <stop offset="100%" stop-color="#120F0D"/>
+    </linearGradient>
+
+    <linearGradient id="rustMeterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <style>
+      .retro-font { font-family: 'Courier New', Courier, 'Fira Code', monospace; }
+      @keyframes softAmberGlow { 0%, 100% { opacity: 0.6; } 50% { opacity: 1; } }
+      .amber-glow { animation: softAmberGlow 3s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Card Chassis -->
+  <rect x="2" y="2" width="846" height="196" rx="8" fill="url(#retroCardBg)" stroke="#4A3324" stroke-width="1.5"/>
+
+  <!-- Vintage Header Band -->
+  <path d="M 2 32 L 848 32" stroke="#382519" stroke-width="1"/>
+  <text x="24" y="21" fill="#D97706" class="retro-font" font-size="11" font-weight="700" letter-spacing="1.2">WORKBENCH TELEMETRY // HARDWARE LOGS</text>
+  <circle cx="810" cy="18" r="4" fill="#E76F51" class="amber-glow"/>
+  <text x="735" y="21" fill="#E76F51" class="retro-font" font-size="10" font-weight="700">ONLINE</text>
+
+  <!-- Metric 1: Contributions -->
+  <g transform="translate(30, 50)">
+    <rect x="0" y="0" width="165" height="120" rx="6" fill="#14100E" stroke="#3D291C" stroke-width="1"/>
+    <text x="16" y="24" fill="#8C684B" class="retro-font" font-size="10" font-weight="700">CONTRIBUTIONS</text>
+    <text x="16" y="66" fill="#F59E0B" class="retro-font" font-size="32" font-weight="800">112+</text>
+    <text x="16" y="90" fill="#E76F51" class="retro-font" font-size="10" font-weight="600">Active Pushes</text>
+    <rect x="16" y="102" width="133" height="4" rx="2" fill="#291C14"/>
+    <rect x="16" y="102" width="105" height="4" rx="2" fill="#D97706"/>
+  </g>
+
+  <!-- Metric 2: Public Repos -->
+  <g transform="translate(210, 50)">
+    <rect x="0" y="0" width="165" height="120" rx="6" fill="#14100E" stroke="#3D291C" stroke-width="1"/>
+    <text x="16" y="24" fill="#8C684B" class="retro-font" font-size="10" font-weight="700">ACTIVE REPOS</text>
+    <text x="16" y="66" fill="#E76F51" class="retro-font" font-size="32" font-weight="800">08</text>
+    <text x="16" y="90" fill="#A88B74" class="retro-font" font-size="10" font-weight="600">Public Projects</text>
+    <rect x="16" y="102" width="133" height="4" rx="2" fill="#291C14"/>
+    <rect x="16" y="102" width="90" height="4" rx="2" fill="#E76F51"/>
+  </g>
+
+  <!-- Metric 3: Streak -->
+  <g transform="translate(390, 50)">
+    <rect x="0" y="0" width="165" height="120" rx="6" fill="#14100E" stroke="#3D291C" stroke-width="1"/>
+    <text x="16" y="24" fill="#8C684B" class="retro-font" font-size="10" font-weight="700">COMMIT PULSE</text>
+    <text x="16" y="66" fill="#F4A261" class="retro-font" font-size="32" font-weight="800">ACTIVE</text>
+    <text x="16" y="90" fill="#F4A261" class="retro-font" font-size="10" font-weight="600">Daily Iterations</text>
+    <rect x="16" y="102" width="133" height="4" rx="2" fill="#291C14"/>
+    <rect x="16" y="102" width="115" height="4" rx="2" fill="#F4A261"/>
+  </g>
+
+  <!-- Languages Breakdown Section (Right Side) -->
+  <g transform="translate(570, 50)">
+    <rect x="0" y="0" width="250" height="120" rx="6" fill="#14100E" stroke="#3D291C" stroke-width="1"/>
+    <text x="16" y="22" fill="#8C684B" class="retro-font" font-size="10" font-weight="700">CRAFT DISTRIBUTION</text>
+
+    <!-- Dart / Flutter -->
+    <text x="16" y="46" fill="#F3E9DC" class="retro-font" font-size="11" font-weight="600">Dart / Flutter</text>
+    <text x="195" y="46" fill="#D97706" class="retro-font" font-size="11" font-weight="700">65%</text>
+    <rect x="16" y="52" width="218" height="5" rx="2" fill="#291C14"/>
+    <rect x="16" y="52" width="141" height="5" rx="2" fill="url(#rustMeterGrad)"/>
+
+    <!-- JavaScript / Web -->
+    <text x="16" y="74" fill="#F3E9DC" class="retro-font" font-size="11" font-weight="600">JavaScript / DOM</text>
+    <text x="195" y="74" fill="#E76F51" class="retro-font" font-size="11" font-weight="700">25%</text>
+    <rect x="16" y="80" width="218" height="5" rx="2" fill="#291C14"/>
+    <rect x="16" y="80" width="55" height="5" rx="2" fill="#E76F51"/>
+
+    <!-- Python / Systems -->
+    <text x="16" y="102" fill="#F3E9DC" class="retro-font" font-size="11" font-weight="600">Python / Vision</text>
+    <text x="195" y="102" fill="#F4A261" class="retro-font" font-size="11" font-weight="700">10%</text>
+    <rect x="16" y="108" width="218" height="5" rx="2" fill="#291C14"/>
+    <rect x="16" y="108" width="22" height="5" rx="2" fill="#F4A261"/>
+  </g>
+</svg>
