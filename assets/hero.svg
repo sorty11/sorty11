@@ -1,0 +1,54 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="180">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E121A"/>
+      <stop offset="60%" stop-color="#0B0E14"/>
+      <stop offset="100%" stop-color="#080A0F"/>
+    </linearGradient>
+
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+
+    <style>
+      .ui-font { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", sans-serif; }
+      .mono { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Fira Code", monospace; }
+      @keyframes softPulse { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
+      .live-dot { animation: softPulse 2.5s infinite ease-in-out; }
+    </style>
+  </defs>
+
+  <!-- Chassis Card -->
+  <rect x="2" y="2" width="846" height="176" rx="12" fill="url(#heroBg)" stroke="#262C36" stroke-width="1.2"/>
+
+  <!-- Subtle Ambient Glow in Corner -->
+  <circle cx="800" cy="30" r="120" fill="#38BDF8" opacity="0.03" filter="blur(30px)"/>
+
+  <!-- Geometric Monogram [S11] -->
+  <g transform="translate(32, 28)">
+    <rect x="0" y="0" width="36" height="36" rx="8" fill="#131822" stroke="#30363D" stroke-width="1.2"/>
+    <path d="M 12 12 L 24 12 L 12 24 L 24 24" fill="none" stroke="url(#accentCyan)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Identity Block -->
+  <text x="80" y="44" fill="#F0F6FC" class="ui-font" font-size="20" font-weight="700" letter-spacing="1">SORTY11</text>
+  <text x="80" y="58" fill="#8B949E" class="ui-font" font-size="10.5" font-weight="600" letter-spacing="2">SOFTWARE ENGINEER · PRODUCT BUILDER</text>
+
+  <!-- Status Pill (Top Right) -->
+  <g transform="translate(680, 28)">
+    <rect x="0" y="0" width="138" height="26" rx="13" fill="#131924" stroke="#262C36" stroke-width="1"/>
+    <circle cx="16" cy="13" r="3.5" fill="#39D353" class="live-dot"/>
+    <text x="27" y="17" fill="#E6EDF3" class="ui-font" font-size="11" font-weight="600">AVAILABLE</text>
+    <text x="96" y="17" fill="#6E7681" class="mono" font-size="10">2026</text>
+  </g>
+
+  <!-- Tagline / Bio -->
+  <text x="32" y="104" fill="#C9D1D9" class="ui-font" font-size="15" font-weight="400">Building software across mobile, cloud, computer vision, and emerging technologies.</text>
+  <text x="32" y="126" fill="#8B949E" class="ui-font" font-size="13">Turning complex architectural problems into reliable, high-utility products.</text>
+
+  <!-- Bottom Metadata Line -->
+  <line x1="32" y1="148" x2="818" y2="148" stroke="#1C212B" stroke-width="1"/>
+  <text x="32" y="164" fill="#6E7681" class="mono" font-size="10.5" letter-spacing="1">NMIMS B.TECH CE · SMART INDIA HACKATHON · SCHEDLY CORE</text>
+  <text x="750" y="164" fill="#6E7681" class="mono" font-size="10.5">MUMBAI, IN</text>
+</svg>
